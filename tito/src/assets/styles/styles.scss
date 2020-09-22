@@ -1,0 +1,57 @@
+.header {
+    &-container {
+        background-color: #5FE1FA;
+    }
+    &-row {
+        display: flex;
+    }
+    &-name {
+        margin-left: 2%;
+        color: white;
+    }
+    &-action {
+        display: flex;
+        margin-left: 60%;
+        margin-top: 1%;
+        color: white;
+    }
+    &-about {
+        margin-left: 5%;
+        white-space: nowrap;
+    }
+    &-contact {
+        margin-left: 5%;
+        white-space: nowrap;
+    }
+    &-resume {
+        margin-top: 4%;
+        margin-right: 15%;
+        margin-left: 5%;
+        white-space: nowrap;
+        button {
+            border-color: white;
+            border-style: solid;
+            outline: none;
+            border-width: 1px;
+            background-color: transparent;
+            color: white;
+            font-weight: bold;
+            padding-top: 10%;
+            padding-bottom: 10%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+}
+
+.main {
+    &-container {
+        background-color: #74F9FB;
+    }
+}
+
+.footer {
+    &-container {
+        background-color: #E8FCE8;
+    }
+}
